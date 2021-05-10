@@ -1,0 +1,29 @@
+.chat-message {
+  max-height: 340px !important;
+  /* border-left: 1px solid #e5e5e5 !important; */
+  padding: 12px !important;
+  overflow: auto;
+}
+.react-datepicker-wrapper{
+  display: block!important;
+}
+.empty-state {
+  align-items: unset;
+}
+.review-comments legend {
+  color: #fff;
+  padding: 2px 10px;
+  width: auto;
+  background: #003366;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.review-comments fieldset{
+  margin-top: 12px;
+  border: 1px solid #003366;
+  padding: 12px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  height: 100%;
+}

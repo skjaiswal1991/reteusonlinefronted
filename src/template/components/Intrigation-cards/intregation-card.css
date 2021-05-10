@@ -1,0 +1,8 @@
+.myCard .card-body img{
+    width: 80%;
+}
+.col-md-2 {
+    -ms-flex: 0 0 19.666667%!important;
+    flex: 0 0 19.666667%!important;
+    max-width: 19.666667%!important;
+}

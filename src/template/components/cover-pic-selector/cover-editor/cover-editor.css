@@ -1,0 +1,7 @@
+#container {
+  position: relative;
+  background: #353535;
+  min-width: 100%;
+  min-height: 289px;
+  overflow: hidden;
+}

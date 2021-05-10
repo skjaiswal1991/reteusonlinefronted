@@ -1,0 +1,31 @@
+.add-bussienes-form{
+    padding: 20px;
+}
+.add-bussienes-form legend {
+    color: #fff;
+    padding: 2px 10px;
+    width: auto;
+    background: #003366;
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.add-bussienes-form fieldset{
+    margin-top: 12px;
+    border: 1px solid #003366;
+    padding: 12px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    height: 100%;
+}
+.select-parent{
+    font-size: 18;
+    font-weight: bold;
+}
+.select-parent{
+    font-size: 16;
+    
+}
+.self-center{
+    align-self: center;
+}

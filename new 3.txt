@@ -1,0 +1,34 @@
+11221155
+
+1:2
+2:2
+1:5
+
+15IODIE245S-1-300x300.jpg:1 Failed to load resource: net::ERR_HTTP2_SERVER_REFUSED_STREAM
+
+//"start": "webpack-dev-server --config webpack.config.dev.js --port 3050",
+
+
+l_8712547e45566556e908b9aaba921871.png
+
+SELECT * from wp_sabai_content_post as scp 
+inner join wp_sabai_entity_field_directory_category as efdc on efdc.entity_id = scp.post_id
+inner join wp_sabai_taxonomy_term as stt on stt.term_id = efdc.value
+inner join wp_sabai_entity_field_content_body as efcb ON efcb.entity_id = efdc.entity_id
+left join wp_sabai_entity_field_directory_social as efds On efds.entity_id  = efdc.entity_id
+left join wp_sabai_entity_field_directory_location as location on location.entity_id= efdc.entity_id
+left join wp_sabai_entity_field_directory_contact as contact on contact.entity_id= efdc.entity_id
+left join wp_sabai_taxonomy_term as sttt on sttt.term_id = stt.term_parent 
+left join wp_users as u on u.ID = scp.post_user_id 
+where efcb.entity_id = 572;
+
+
+wp_sabai_entity_field_directory_social
+
+
+Error: MySQL shutdown unexpectedly.
+This may be due to a blocked port, missing dependencies, 
+improper privileges, a crash, or a shutdown by another method.
+Press the Logs button to view error logs and check
+the Windows Event Viewer for more clues
+If you need more help, copy and post this entire log window on the forums

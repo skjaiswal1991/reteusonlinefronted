@@ -1,0 +1,7 @@
+.star-ul {
+  display: flex;
+  list-style: none;
+}
+.star-ul li {
+  padding: 0 4px;
+}

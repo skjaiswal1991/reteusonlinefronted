@@ -1,0 +1,270 @@
+*{margin:0;padding:0;}
+body{overflow-x: hidden;font-family: 'Montserrat', sans-serif;
+}
+.user-info-details,.user-info-bg{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.user-info-bg{
+    background-image: url(../images/login-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    flex: 1 1 50%;
+    max-width: calc(50% - 15px);
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    background-color: #fff!important;
+    
+}
+.login-logo {
+    padding: 30px;
+}
+.user-info-details {
+    display: flex;
+    flex: 1 1 auto;
+     flex-direction: column;
+}
+.user-info-details .signup-wrap {
+    flex: 0 1 auto;
+    height: 100px;
+    padding: 0 5%;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.user-info-details .signup-wrap span {
+    flex: 0 0 auto;
+    margin-right: 10px;
+   font-size: 14px;
+}
+.user-info-details .signup-wrap a {
+    flex: 0 0 auto;
+    border: 1px solid rgba(0,0,0,.08);
+    padding: 8px 10px;
+    font-weight: 600;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    color: #06a7e1;
+     text-decoration: none;
+    font-size: 14px;
+}
+.user-info-details-login {
+    flex: 1 1 auto;
+    position: relative;
+    padding: 0 20%;
+}
+.user-info-details-login .language-selector h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #06a7e1;
+}
+.user-info-details-login .language-selector {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.user-info-details-login .language-selector .dropdown-menu{
+  padding:0px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+  background-color: #fff;
+  min-width: 8rem;
+  max-width: 380px;
+  margin: 0px;
+}
+.user-info-details-login .language-selector .dropdown:hover>.dropdown-menu {
+  display: block;
+
+}
+.user-info-details-login .language-selector .dropdown-item:focus, .dropdown-item:hover {
+    color: #fff;
+    text-decoration: none;
+    background-color: #06a7e1;
+}
+.user-info-details-login .language-selector .dropdown>.dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+    pointer-events: none;
+}
+.user-info-details-login .language-selector .btn-primary{
+    border: 1px solid #a0a7b4;
+    background-color: transparent;
+    color: #555;
+}
+.user-login-form .form-control{
+border-bottom: 0px solid #dddddd !important;
+    border: 0;
+    border-radius: 0;
+}
+.user-login-form .form-control:focus {
+    border-color: transparent;
+        box-shadow: none;
+   
+}
+
+.user-login-form .form-group{
+    position: relative;
+}
+.user-login-form .form-group input {
+  background: 0;
+  border: 0;
+  outline: none;
+  width: 80vw;
+  max-width: 400px;
+  font-size: 1.5em;
+  transition: padding 0.3s 0.2s ease;
+}
+.user-login-form .form-group input:focus {
+  padding-bottom: 5px;
+}
+.user-login-form .form-group input:focus + .line:after {
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+
+.user-login-form .form-group .line {
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -8px;
+  background: #dddddd;
+}
+.user-login-form .form-group .line:after {
+  content: " ";
+  position: absolute;
+  float: right;
+  width: 100%;
+  height: 2px;
+  -webkit-transform: scalex(0);
+          transform: scalex(0);
+  transition: -webkit-transform 0.3s ease;
+  transition: transform 0.3s ease;
+  transition: transform 0.3s ease, -webkit-transform 0.3s ease;
+  background: #067ae1;
+}
+
+.user-login-form button {
+   
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding: 6px 20px;
+    background-color: #06a7e1;
+    border: 1px solid #06a7e1;
+}
+.user-login-form .signup-text {
+    font-size: 14px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.login-with {
+    display: flex;
+    position: relative;
+    font-size: 14px;
+    text-transform: uppercase;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+}
+.login-with:before {
+    left: 0;
+    width: 45%;
+}
+.login-with:after {
+    width: 45%;
+    right: 0;
+}
+.login-with:after, .login-with:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    background-color: #f2f2f2;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.login-social {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.google-btn button ,.micro-soft-btn button{
+    width: 200px;
+    height: 47px;
+    border-radius: 0!important;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+    position: relative;
+    background-color: #067ae1!important;
+    font-family: Open Sans,sans-serif!important;
+    font-size: 16px!important;
+    font-weight: 600!important;
+    font-style: normal!important;
+    line-height: 48px!important;
+    padding: 0 0 0 46px!important;
+}
+.google-btn button:after {
+    position: absolute;
+    content: "";
+    background: #fff url(../images/google-btn.svg) no-repeat 50%;
+    background-size: 32px;
+    width: 46px;
+    height: 45px;
+    left: 0;
+    top: 0;
+}
+.micro-soft-btn button:after {
+    position: absolute;
+    content: "";
+    background: #fff url(../images/mic_logo.svg) no-repeat 50%;
+    background-size: 20px;
+    width: 46px;
+    height: 45px;
+    left: 0;
+    top: 0;
+}
+.form-control::-webkit-input-placeholder {
+  color: #b1b1b1;
+  font-size:14px;
+}
+.form-control:-moz-placeholder {
+  color: #b1b1b1;
+  font-size:14px;
+}
+.form-control::-moz-placeholder {
+  color: #b1b1b1;
+  font-size:14px;
+}
+.form-control::placeholder {
+  color: #b1b1b1;
+  font-size:14px;
+}
+.form-control:-ms-input-placeholder {
+  color: #b1b1b1;
+  font-size:14px;
+}
+@media screen and (max-width:767px){
+.user-info-bg {
+    background-image: url(../images/login-bg.jpg);
+    background-position: center;
+    flex: 1 1 50%;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    background-color: #fff!important;
+    height: 200px;
+    object-fit: cover;
+    max-width: 100%;
+}
+.login-social {
+    flex-direction: column;
+}
+.login-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+}

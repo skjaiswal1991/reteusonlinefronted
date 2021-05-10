@@ -1,0 +1,52 @@
+.p-pic-container {
+  position: relative;
+}
+.myTitle input {
+  display: none;
+}
+.profile-pic {
+  display: grid;
+  background-color: #2196f3;
+  overflow: hidden;
+  height: 180px;
+  width: 180px;
+  background-color: #000;
+  border: 4px solid #f7f7f7;
+  position: relative;
+  margin-top: -100px;
+}
+.myTitle button {
+  margin-left: 12px;
+}
+.onHoverEdit {
+  position: absolute;
+  min-height: 25%;
+  min-width: 100%;
+  margin-top: 130px;
+  padding-top: 5%;
+  text-align: center;
+  background: #44475da6;
+  color: white;
+  cursor: pointer;
+}
+
+.profile-pic img {
+  margin: 0%;
+  display: block;
+  text-align: center;
+}
+.pro-circle {
+  width: 85px;
+  height: 85px;
+  background-color: #f00;
+  position: absolute;
+  top: -130px;
+  right: -38px;
+  border-radius: 50px;
+}
+
+.pro-circle p {
+  text-align: center;
+  color: #fff;
+  margin: 18px auto;
+}

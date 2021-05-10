@@ -1,0 +1,11 @@
+.add-btn {
+  box-shadow: 1px 1px 14px #bcbcbc;
+}
+
+.toggle-menu {
+  border: 1px solid #ffffff !important;
+  position: absolute;
+  left: 5px;
+  background: #ffff !important;
+  color: #fff;
+}

@@ -1,0 +1,86 @@
+.main-slide {
+  background-color: #04111fbb;
+  padding: 1px;
+  min-height: 332px;
+  position: relative;
+  max-height: 332px;
+}
+#c-p-input {
+  display: none;
+}
+.text-on-banner {
+  position: absolute;
+  z-index: 1;
+  top: 45px;
+  left: 0;
+  background: #343a406b;
+  color: white;
+  padding: 25px;
+  width: 400px;
+  margin: 0 auto;
+  right: 0;
+}
+
+.text-on-banner h2 {
+  font-size: 22px;
+  font-weight: bold;
+}
+.button_pallate {
+  position: absolute;
+  top: auto;
+  z-index: 1;
+  background: #21252969;
+  padding: 12px;
+  bottom: 18px;
+  right: 27px;
+}
+
+.button_pallate .edit {
+  margin: 0px 12px 0px 0px;
+  border-radius: 0;
+  font-size: 12px;
+}
+
+.button_pallate .change_cover {
+  border-radius: 0;
+  font-size: 12px;
+}
+.main-slide-title h2 {
+  cursor: pointer;
+}
+.main-slide-title p {
+  cursor: pointer;
+}
+.main-slide-title {
+  position: relative;
+}
+.mainEditInput {
+  margin: 63px 10px;
+  border: 1px solid #ffffff0a;
+  background: #fdfbfb94;
+}
+
+.subEditInput {
+  margin: 17.5px 0px;
+  border: 1px solid #ffffff0a;
+  background: #fdfbfb94;
+}
+.bannerTexts {
+  position: absolute;
+  top: 68px;
+  left: 238px;
+}
+.sub-input .form-group{
+  margin: 0px;
+}
+.sub-input .form-group input{
+  background: transparent;
+    border-radius: 0;
+    border: 1px solid #495057;
+}
+.sub-input .form-group .btn{
+    border-radius: 0px;
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
